@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <EditText 
+        android:id="@+id/oil_add_dialog_currentMile"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="当前里程"
+        android:layout_marginTop="5dp"
+        android:inputType="number"/>
+
+    <EditText 
+        android:id="@+id/oil_add_dialog_leftMile"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="剩余里程"
+        android:inputType="number"/>
+    
+    <EditText 
+        android:id="@+id/oil_add_dialog_price"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="本次加油金额"
+        android:inputType="number"/>
+    
+</LinearLayout>
